@@ -1,0 +1,10 @@
+Dockerfile
+.dockerignore
+node_modules
+.next
+out
+.git
+.env.local
+.google-tokens.json
+README.md
+pnpm-lock.yaml

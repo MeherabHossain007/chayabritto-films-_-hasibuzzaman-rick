@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  
+  --color-primary-50: #fff5eb;
+  --color-primary-100: #ffe8d2;
+  --color-primary-200: #ffd0ab;
+  --color-primary-300: #ffb17c;
+  --color-primary-400: #ff8842;
+  --color-primary-500: #ff6514;
+  --color-primary-600: #f24e05;
+  --color-primary-700: #c93b06;
+  --color-primary-800: #9f300e;
+  --color-primary-900: #80280f;
+  --color-primary-950: #451105;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
